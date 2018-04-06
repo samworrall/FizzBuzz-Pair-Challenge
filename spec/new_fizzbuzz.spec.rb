@@ -12,4 +12,7 @@ describe 'new_fizzbuzz' do
   it 'returns "fizzbuzz" when called on 15' do
     expect(15.fizzbuzz).to eq 'fizzbuzz'
   end
+  it 'returns 1 when called on 1' do
+    expect(1.fizzbuzz).to eq 1
+  end
 end
