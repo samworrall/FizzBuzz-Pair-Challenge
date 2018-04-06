@@ -1,4 +1,5 @@
 class Integer
-  def fizzbuzz(num)
+  def fizzbuzz
+    'fizz'
   end
 end
